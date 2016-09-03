@@ -1,28 +1,40 @@
-name: Yakovia
-favicon: null
-layout_spectrum: 0.3820844553411007
-typography_spectrum: 0.9040411764290184
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.9524403682444245
+  brandStrength: 0.9007959878072143
+  rhythmicContrast: 0.5858625783585012
   brandColors:
     - '#B8B42D'
     - '#697A21'
     - '#FFFCE8'
     - '#3E363F'
     - '#DD403A'
-  brandStrength: 0.9007959878072143
   lightness: 0.4446914945729077
-  saturation: 0.9524403682444245
-  rhythmicContrast: 0.5858625783585012
-purpose: []
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: Yakovia
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.9040411764290184
+layout_spectrum: 0
